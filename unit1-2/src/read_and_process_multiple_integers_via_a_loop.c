@@ -24,10 +24,10 @@ robot, where the power of an individual robot is calculated via:
 int main(void){
   int numOfBots, enginePower, resistance, weight, height, totalPower;
   totalPower = 0;
-  printf("How many robots do you want?\n");
+  //printf("How many robots do you want?\n");
   scanf("%d",&numOfBots);
   for(int i = 0; i < numOfBots; i++){
-    printf("whats the height, the weight, the power of the engines and a resistance rating (1, 2, or 3) for this bot\neach number shoul be separate by a space\n");
+    //printf("whats the height, the weight, the power of the engines and a resistance rating (1, 2, or 3) for this bot\neach number shoul be separate by a space\n");
     scanf("%d%d%d%d", &height, &weight, &enginePower, &resistance);
     totalPower = totalPower + (enginePower + resistance) * (weight - height);
   }
