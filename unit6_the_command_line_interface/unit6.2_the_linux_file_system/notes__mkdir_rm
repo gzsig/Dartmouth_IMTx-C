@@ -1,0 +1,6 @@
+mkdir #creates folder
+rm #remove file
+rm -r #remove folder
+rm -ri #ask before acting
+yes | rm -ri #always answer yes
+mkdir -p d1/d2/d3/d4 #create sub folders in one command

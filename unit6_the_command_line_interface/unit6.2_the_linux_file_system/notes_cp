@@ -1,0 +1,2 @@
+cat f2 > f3 #create f3 with the content of f2
+cp dir1 dir2 ##create dir2 with the content of dir1 or (if dir2 exists) creates a copy of dir1 inside dir2
