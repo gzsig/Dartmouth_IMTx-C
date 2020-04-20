@@ -1,0 +1,3 @@
+cat > f<enter>hello<enter><CTRL D>
+
+hello
