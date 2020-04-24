@@ -1,0 +1,3 @@
+gcc -c program.c -o program.o //to compile as object files so programs can be linked
+gcc -c program_II.c -o program_II.o //to compile second file oas object file
+gcc program_II.o program.o -o program //to link both files
