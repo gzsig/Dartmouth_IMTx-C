@@ -9,3 +9,6 @@ weatherstats.o: weatherstats.c
 	
 clean:
 	rm -f weatherstats.o program.o program
+
+launch: program
+	./program
